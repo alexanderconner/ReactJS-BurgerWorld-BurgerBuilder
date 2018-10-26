@@ -31,7 +31,7 @@ class BurgerIngredient extends Component {
             ingredient = <div className={burgerIngredientModules.Bacon}></div>;
             break;
             default:
-            ingredient = <div style={"background-color:red"}> </div>
+            ingredient = null;
         }
         return ingredient;
     }
