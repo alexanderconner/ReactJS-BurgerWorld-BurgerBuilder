@@ -7,8 +7,6 @@ Reacts dynamically to page size and is compatible with both mobile and web brows
 
 WIP!
 
-
-
 <p align="center">
 <img src="./Capture.PNG" width="350"/>  
 </p>
