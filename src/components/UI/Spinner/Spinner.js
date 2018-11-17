@@ -6,7 +6,7 @@ const spinner = (props) => {
     return (
         <Aux>
         <div className={SpinnerStyleModule.Loader}></div>
-        <p style={{textAlign: 'center'}}>Submitting your order...</p>
+        <p style={{textAlign: 'center'}}>Loading...</p>
         </Aux>
     )
 };
