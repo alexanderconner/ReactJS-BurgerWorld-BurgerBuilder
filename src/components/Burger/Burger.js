@@ -1,9 +1,11 @@
 import React from 'react';
 import burgerModules from './Burger.module.css';
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
+import {withRouter} from 'react-router-dom';
 
 const burger = (props) => {
 
+    console.log(props);
     //Transform object into an array of a string and key, and for each quantity return
     //an ingredient element
     //The Object.keys() method returns an array of a given object's own property names, in the same order as we get with a normal loop.
@@ -38,4 +40,4 @@ const burger = (props) => {
     );
 };
 
-export default burger;
+export default withRouter(burger);
